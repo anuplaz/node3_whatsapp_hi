@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewpoint" content="wdith=device-width, initial-scale=1">
-        <title>WA Messager</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WA.Messager</title>
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <form action="/sayhi" method="GET">
-            <p><input type="number" name="phno" placeholder="9876543210"  required/></p>
-            <p><input type="text" name="msg" placeholder="Hi" value ="Hello" /></p>
-            <p><input type="submit" name="submit" value="Say Hello"></p>
+            <p><input type="number" name="phno" placeholder="9876543210"  required autofocus="autofocus"/></p>
+            <p><input type="text" name="msg" placeholder="Hello" value ="Hello" /></p>
+            <p><input id ="submit" type="submit" name="submit" value="Say Hello"></p>
         </form>
     </body>
 </html>
