@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-hi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuplaz/node3_whatsapp_hi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuplaz/node3_whatsapp_hi/issues"
+  },
+  "homepage": "https://github.com/anuplaz/node3_whatsapp_hi#readme"
+}
